@@ -1,0 +1,28 @@
+.our-work-section {
+    padding-top: 0px;
+  }
+  .our-work-list {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -30px;
+  }
+  .our-work-item {
+    position: relative;
+    flex-basis: calc((100% - 90px) / 3);
+    margin-left: 30px;
+  }
+  .our-work-label {
+    position: absolute;
+    display: flex;
+    bottom: 0px;
+    width: 100%;
+    height: 70px;
+    font-size: 14px;
+    line-height: 1.14em;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    color: var(--tertiary-text-color-lite);
+    background: rgba(47, 48, 58, 0.8);
+  }
