@@ -1,103 +1,81 @@
+.footer {
+  background-color: var(--secondary-background-color);
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
 .footer-container {
-    align-items: baseline;
-    display: flex;
-  }
-  .footer {
-    background-color: var(--secondary-background-color);
-    padding-bottom: 60px;
-    padding-top: 60px;
-  }
-  .foter-section {
-    margin-right: 70px;
-  }
-  .footer-icon-link {
-    background-color: rgba(255, 255, 255, 0.1);
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
+  align-items: baseline;
+  display: flex;
+}
+.foter-section {
+  margin-right: 70px;
+}
+.footer-address {
+  margin-top: 20px;
+}
   
-  .logo-footer {
-    color: var(--tertiary-text-color-lite);
-  }
-  .address-footer {
-    margin-top: 20px;
-  }
+.footer-list {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.footer-item:not(:last-child) {
+  margin-bottom: 10px;
+}
   
-  .footer-list {
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-  }
-  .footer-item:not(:last-child) {
-    margin-bottom: 10px;
-  }
+.footer-addresses-link {
+  color: var(--tertiary-text-color-lite);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-contact-link {
+  color: var(--tertiary-text-color-lite-transparency);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
   
-  .footer-addresses-link {
-    color: var(--tertiary-text-color-lite);
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .footer-mail-link,
-  .footer-tel-link {
-    color: var(--tertiary-text-color-lite-transparency);
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  
-  .foter-section-title {
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    color: var(--tertiary-text-color-lite);
-    margin-bottom: 20px;
-  }
-  .foter-subscription{
-    margin-left: auto;
-  }
-  .foter-subscription-input{
-    width: 358px;
-    height: 50px;
-    padding-left: 16px;
-    margin-right: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    border-radius: 4px;
-    background-color: transparent;
-    font-family: var(--primery-font-family);
-    font-size: 16px;
-    line-height: 1.25em;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-  }
-  .foter-subscription-input::placeholder{
-    font-size: 16px;
-    line-height: 1.25em;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-  }
-  .foter-subscription-btn{
-    display: inline-flex;
-    align-items: center;
-    border: transparent;
-    font-family: var(--primery-font-family);
-    border-radius: 4px;
-    padding: 10px 29px;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    letter-spacing: 0.06em;
-    cursor: pointer;
-    background-color: var(--accent-text-color);
-    color: var(--tertiary-text-color-lite);
-    filter: drop-shadow(0px 4px 4px var(--btn-shadow));
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .foter-subscription-icon{
-    fill: currentColor;
-    margin-left: 10px;
-  }
-  
-  .foter-subscription-btn:hover,
-  .foter-subscription-btn:focus {
-    background-color: var(--background-active-btn-hero);
-  }
+.foter-section-title {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: var(--tertiary-text-color-lite);
+  margin-bottom: 20px;
+}
+.foter-subscription{
+  margin-left: auto;
+}
+.foter-subscription-input{
+  width: 358px;
+  height: 50px;
+  padding-left: 16px;
+  margin-right: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+  font-family: var(--primery-font-family);
+  font-size: 16px;
+  line-height: 1.25em;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.foter-subscription-input::placeholder{
+  font-size: 16px;
+  line-height: 1.25em;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.foter-subscription-btn{
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--primery-font-family);
+  padding: 10px 29px;
+  filter: drop-shadow(0px 4px 4px var(--btn-shadow));
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.foter-subscription-icon{
+  fill: currentColor;
+  margin-left: 10px;
+}
+ 

@@ -4,8 +4,7 @@
 .nav-list {
     display: flex;
     align-items: center;
-  
-  }
+}
 .nav-list-item:not(:last-child) {
     margin-right: 50px;
   }
@@ -19,8 +18,7 @@
 }
 
 .nav-list-link,
-.contact-mail-link,
-.contact-tel-link {
+.contact-link{
   position: relative;
   color: currentColor;
   display: flex;
@@ -37,12 +35,7 @@
   background-image: url("../images/svg/hover.svg");
 }
 
-.icon-envelope {
-  margin-right: 10px;
-  fill: currentColor;
-  align-items: center;
-}
-.icon-smartphone {
+.contact-link-icon {
   margin-right: 10px;
   fill: currentColor;
   align-items: center;
