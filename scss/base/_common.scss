@@ -1,6 +1,6 @@
 body {
-    font-family: var(--primery-font-family);
-    color: var(--primery-text-color-dark);
+    font-family: var(--font-family-primery);
+    color: var(--text-color-primery-dark);
   }
 h1,
 h2,
@@ -34,6 +34,6 @@ img {
   text-decoration: none;
   &:hover,
   &:focus {
-    color: var(--accent-text-color);
+    color: var(--text-color-accent);
    }
   }

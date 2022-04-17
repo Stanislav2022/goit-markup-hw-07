@@ -23,6 +23,6 @@
   text-transform: uppercase;
   justify-content: center;
   align-items: center;
-  color: var(--tertiary-text-color-lite);
-  background: rgba(47, 48, 58, 0.8);
+  color: var(--tertiary-color-lite);
+  background: rgba(var(--background-color-secondary-rgb), 0.8);
 }

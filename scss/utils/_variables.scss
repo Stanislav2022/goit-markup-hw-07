@@ -1,18 +1,24 @@
 :root {
-    --primery-font-family: "Roboto", sans-serif;
-    --secondary-font-family: "Raleway", sans-serif;
-    --primery-text-color-dark: #212121;
-    --secondary-text-color-medium: #757575;
-    --tertiary-text-color-lite: #ffffff;
-    --tertiary-text-color-lite-transparency: rgba(255, 255, 255, 0.6);
-    --accent-text-color: #2196f3;
-    --background-hero: #c4c4c4;
-    --background-active-btn-hero: #188ce8;
-    --background-btn-lite: #f5f4fa;
+    --font-family-primery: "Roboto", sans-serif;
+    --font-family-secondary: "Raleway", sans-serif;
+
+    --text-color-primery-dark: #212121;
+    --primery-color-dark-rgb: 33, 33, 33;
+    --text-color-secondary-medium: #757575;
+    --secondary-color-medium-rgb: 117, 117, 117;
+    --tertiary-color-lite: #ffffff;
+    --tertiary-color-lite-rgb: 255, 255, 255;
+    --text-color-accent: #2196f3;
+    --text-color-accent-rgb: 33, 150, 243;
+    --background-color-hero: #c4c4c4;
+    --background-color-active-btn: #188ce8;
+    --background-color-btn-lite: #f5f4fa;
+    --background-color-secondary: #2f303a;
+    --background-color-secondary-rgb: 47, 48, 58; 
     --temporary-color: #000000;
-    --btn-shadow: rgba(0, 0, 0, 0.25);
-    --secondary-background-color: #2f303a;
+    --temporary-color-rgb: 0, 0, 0;
+    --shadow-color-btn: rgba(0, 0, 0, 0.25);
     --border-color: #eeeeee;
-    --border-header-color: #ececec;
-    --primery-icon-color: #afb1b8;
+    --border-color-header: #ececec;
+    --icon-color-primery: #afb1b8;
   }

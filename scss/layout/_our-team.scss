@@ -1,5 +1,5 @@
 .our-team-section {
-  background-color: var(--background-btn-lite);
+  background-color: var(--background-color-btn-lite);
 }
 .our-team-list {
   display: flex;
@@ -12,7 +12,7 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  background-color: var(--tertiary-text-color-lite);
+  background-color: var(--tertiary-color-lite);
 }
 .our-team-person {
   padding-top: 30px;
@@ -30,6 +30,6 @@
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--secondary-text-color-medium);
+  color: var(--text-color-secondary-medium);
   margin-bottom: 16px;
 }

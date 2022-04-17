@@ -9,18 +9,18 @@
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  fill: var(--primery-icon-color);
+  fill: var(--icon-color-primery);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
   fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
   &:focus {
-    background-color: var(--accent-text-color);
-    fill: var(--tertiary-text-color-lite);
+    background-color: var(--text-color-accent);
+    fill: var(--tertiary-color-lite);
   }
 }
 .social-list-item:not(:last-child) {
   margin-right: 10px;
 }
 .footer-icon {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(var(--tertiary-color-lite-rgb), 0.1);
  }

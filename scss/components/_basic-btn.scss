@@ -6,11 +6,11 @@
   line-height: 1.87;
   letter-spacing: 0.06em; 
   cursor: pointer;
-  background-color: var(--accent-text-color);
-  color: var(--tertiary-text-color-lite);
+  background-color: var(--text-color-accent);
+  color: var(--tertiary-color-lite);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
   &:focus {
-    background-color: var(--background-active-btn-hero);
+    background-color: var(--background-color-active-btn);
   }
 }
