@@ -3,37 +3,38 @@
   padding-bottom: 60px;
   padding-top: 60px;
 }
-.footer-container {
+.footer__container {
   align-items: baseline;
   display: flex;
 }
-.foter-section {
+.foter__section {
   margin-right: 70px;
 }
-.footer-address {
+.footer__address {
   margin-top: 20px;
 }
   
-.footer-list {
+.footer__list {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.footer-item:not(:last-child) {
+.footer__item:not(:last-child) {
   margin-bottom: 10px;
 }
   
-.footer-addresses-link {
+.footer__addresses-link {
   color: var(--tertiary-color-lite);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-contact-link {
+.footer__contact-link {
   color: rgba(var(--tertiary-color-lite-rgb), 0.6);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
   
-.foter-section-title {
+.foter__section-title {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
@@ -45,11 +46,11 @@
 .foter-subscription{
   margin-left: auto;
 }
-.foter-subscription-field {
+.foter-subscription__field {
   display: inline-block;
   margin-right: 10px;
 }
-.foter-subscription-input{
+.foter-subscription__input{
   width: 358px;
   height: 50px;
   padding-left: 16px;
@@ -63,13 +64,13 @@
   letter-spacing: 0.03em;
   color: rgba(var(--tertiary-color-lite-rgb), 0.6);
 }
-.foter-subscription-input::placeholder{
+.foter-subscription__input::placeholder{
   font-size: 16px;
   line-height: 1.25em;
   letter-spacing: 0.03em;
   color: rgba(var(--tertiary-color-lite-rgb), 0.6);
 }
-.foter-subscription-btn{
+.foter-subscription__btn{
   display: inline-flex;
   align-items: center;
   font-family: var(--font-family-primery);
@@ -77,8 +78,8 @@
   filter: drop-shadow(0px 4px 4px var(--shadow-color-btn));
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.foter-subscription-icon{
+.foter-subscription__icon{
   fill: currentColor;
   margin-left: 10px;
 }
- 
+

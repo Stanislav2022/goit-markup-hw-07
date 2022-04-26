@@ -1,6 +1,4 @@
-.our-team-section {
-  background-color: var(--background-color-btn-lite);
-}
+
 .our-team {
   display: flex;
   flex-wrap: wrap;
@@ -19,14 +17,14 @@
     padding-bottom: 30px;
     text-align: center;
   }
-  &__name {
+  &__title {
     margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
   }
-  &__profession {
+  &__text {
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
